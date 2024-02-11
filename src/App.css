@@ -1,0 +1,82 @@
+.App-header {
+  background-color: #FAF5E7;
+  min-height: 20vh; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; 
+}
+
+.fixed-header {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%; 
+  max-width: 1200px; /* Set maximum width for better readability */
+  z-index: 1000; 
+}
+
+
+.fixed-landing {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  position: relative;
+  top: 100%; 
+  width: 90%; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  text-align: right; 
+  color: #1F4A38;
+  font-size: 2vw; /* Responsive font size */
+  font-weight: bold;
+}
+
+.spacer {
+  height: 200px;
+}
+
+.countdown-box {
+  top: 100px; 
+  flex: 1;
+  max-width: 200px;
+  width: 30%; 
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  /* Adjust for smaller screens */
+  .countdown-box {
+    width: 45%; 
+    max-width: none; 
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for even smaller screens */
+  .countdown-box {
+    width: 100%; 
+    margin: 10px 0; 
+  }
+}

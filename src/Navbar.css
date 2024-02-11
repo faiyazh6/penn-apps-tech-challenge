@@ -1,0 +1,52 @@
+.navbar-content {
+    background-color: #FFFFFF; 
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    position: fixed; 
+    top: 0px; 
+    left: 0; 
+    z-index: 1000; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+.PennApps-Title {
+    color: #1F4A38; 
+    font-size: 20px;
+    font-weight: bold;
+    display: relative;
+    margin-left: 20px;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+.about {
+    color: #1F4A38; 
+    font-size: 15px; 
+    display: relative;
+    padding: 7px;
+    margin-right: 20px; 
+    font-family: 'Proxima Nova'; 
+}
+
+.about-apply-container {
+    display: flex;
+    margin-right: 10px;
+}
+
+.apply {
+    color: #1F4A38; 
+    font-size: 15px; 
+    display: relative;
+    padding: 7px;
+    margin-right: 10px; 
+    font-family: 'Proxima Nova'; 
+}
+
+@media screen and (max-width: 768px) {
+    .PennApps-Title,
+    .about,
+    .apply {
+      padding: 5px;
+    }
+  }
